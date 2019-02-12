@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserStatus when user is offline renders his last seen 1`] = `
+<div
+  style="color: gray"
+>
+  <div
+    class="icon icon-clock"
+  />
+   Last seen 
+  10 minutes ago
+</div>
+`;
+
+exports[`UserStatus when user is online renders his status as online 1`] = `
+<div
+  style="color: green"
+>
+  <div
+    class="icon icon-online"
+  />
+   Online
+</div>
+`;
