@@ -15,7 +15,7 @@ function UserStatus({ isOnline, lastSeen }) {
   } else {
     return (
       <Text color="gray">
-        <Icon name="clock" /> Last seen {lastSeen}
+        <Icon name="gray-user" /> Offline since {lastSeen}
       </Text>
     );
   }

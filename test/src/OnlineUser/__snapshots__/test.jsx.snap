@@ -5,9 +5,9 @@ exports[`UserStatus when user is offline renders his last seen 1`] = `
   style="color: gray"
 >
   <div
-    class="icon icon-clock"
+    class="icon icon-gray-user"
   />
-   Last seen 
+   Offline since 
   10 minutes ago
 </div>
 `;
